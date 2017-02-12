@@ -23,8 +23,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch01/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="416">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding>
                 <element signature="e#16#39#0" expanded="true" />
               </folding>
@@ -107,28 +107,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensorflowSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensorflowSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tensorflowSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -140,24 +119,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train_with_eval.py&#10;train&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train.py&#10;in&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/inference.py&#10;tra&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train.py&#10;mo&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/model.py&#10;mode&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/model.py&#10;reader&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/reader.py&#10;con&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/convert_cifar10_png.py" />
   </component>
-  <component name="RunManager" selected="Python.inference">
-    <configuration default="false" name="add_op" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tensorflowSample" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_op.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="mul_op" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,6 +184,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tensorflowSample" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tensorflowSample" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch01/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -361,19 +340,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.add_op" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mul_op" />
-      <item index="2" class="java.lang.String" itemvalue="Python.variable" />
-      <item index="3" class="java.lang.String" itemvalue="Python.placeholder" />
-      <item index="4" class="java.lang.String" itemvalue="Python.inference" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mul_op" />
+      <item index="1" class="java.lang.String" itemvalue="Python.variable" />
+      <item index="2" class="java.lang.String" itemvalue="Python.placeholder" />
+      <item index="3" class="java.lang.String" itemvalue="Python.inference" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.inference" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mul_op" />
-        <item index="2" class="java.lang.String" itemvalue="Python.placeholder" />
-        <item index="3" class="java.lang.String" itemvalue="Python.variable" />
-        <item index="4" class="java.lang.String" itemvalue="Python.add_op" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.inference" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mul_op" />
+        <item index="3" class="java.lang.String" itemvalue="Python.placeholder" />
+        <item index="4" class="java.lang.String" itemvalue="Python.variable" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +376,7 @@
     <frame x="720" y="0" width="720" height="895" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -728,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch01/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="416">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
             <element signature="e#16#39#0" expanded="true" />
           </folding>
