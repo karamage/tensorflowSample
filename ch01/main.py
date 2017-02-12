@@ -28,9 +28,26 @@ for row, month in enumerate(range(1, 13)):
         train_x[row][col] = month**n
 
 i = 0
-for _ in range(100000):
+for _ in range(200000):
     i += 1
     sess.run(train_step, feed_dict={x:train_x, t:train_t})
     if i % 10000 == 0:
         loss_val = sess.run(loss, feed_dict={x:train_x, t:train_t})
         print('Step: %d, Loss: %f' % (i, loss_val))
+
+w_val = sess.run(w)
+print w_val
+
+def predict(x):
+    result = 0.0
+    for n in range(0, 5):
+        result += w_val[n][0] * x**n
+    return result
+
+fig = plt.figure()
+subplot = fig.add_subplot(1,1,1)
+subplot.set_xlim(1,12)
+subplot.scatter(range(1,13), train_t)
+linex = np.linspace(1,12,100)
+liney = predict(linex)
+subplot.plot(linex, liney)
