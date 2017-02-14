@@ -52,3 +52,28 @@ for _ in range(20000):
             [loss, accuracy], feed_dict={x:train_x, t:train_t})
         print ('Step: %d, Loss: %f, Accuracy: %f' % (i, loss_val, acc_val))
 
+w0_val, w_val = sess.run([w0, w])
+w0_val, w1_val, w2_val = w0_val[0], w_val[0][0], w_val[1][0]
+print w0_val, w1_val, w2_val
+
+train_set0 = train_set[train_set['t']==0]
+train_set1 = train_set[train_set['t']==1]
+
+fig = plt.figure(figsize=(6,6))
+subplot = fig.add_subplot(1,1,1)
+subplot.set_ylim([0,30])
+subplot.set_xlim([0,30])
+subplot.scatter(train_set1.x1, train_set1.x2, marker='x')
+subplot.scatter(train_set0.x1, train_set0.x2, marker='o')
+
+linex = np.linspace(0, 30, 10)
+liney = - (w1_val*linex/w2_val + w0_val/w2_val)
+
+subplot.plot(linex, liney)
+
+field = [[(1 / (1 + np.exp(-(w0_val + w1_val*x1 + w2_val*x2))))
+          for x1 in np.linspace(0,30,100)]
+         for x2 in np.linspace(0,30,100)]
+subplot.imshow(field, origin='lower', extent=(0,30,0,30),
+               cmap=plt.cm.gray_r, alpha=0.5)
+plt.show()
