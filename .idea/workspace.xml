@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9c8e55-3455-4008-a1ce-770db3f460e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch02/main2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch02/main.py" afterPath="$PROJECT_DIR$/ch02/main.py" />
     </list>
     <ignored path="tensorflowSample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +26,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch01/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="756">
               <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
               <folding>
                 <element signature="e#16#39#0" expanded="true" />
@@ -35,11 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch02/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+            <state relative-caret-position="324">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#17#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch02/main2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
               <folding>
                 <element signature="e#17#40#0" expanded="true" />
               </folding>
@@ -75,6 +87,7 @@
         <option value="$PROJECT_DIR$/train_with_eval.py" />
         <option value="$PROJECT_DIR$/ch01/main.py" />
         <option value="$PROJECT_DIR$/ch02/main.py" />
+        <option value="$PROJECT_DIR$/ch02/main2.py" />
       </list>
     </option>
   </component>
@@ -124,11 +137,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,9 +149,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch02/main.py&#10;main&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch02/main.py&#10;train&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train.py&#10;in&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/inference.py&#10;tra&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train.py&#10;mo&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/model.py&#10;mode&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/model.py&#10;reader&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/reader.py&#10;con&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/convert_cifar10_png.py" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch02/main2.py&#10;main&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch02/main.py&#10;train&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train.py&#10;in&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/inference.py&#10;tra&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train.py&#10;mo&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/model.py&#10;mode&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/model.py&#10;reader&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/reader.py&#10;con&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/convert_cifar10_png.py" />
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main2">
     <configuration default="false" name="mul_op" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,23 +165,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tensorflowSample" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mul_op.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="placeholder" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tensorflowSample" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/placeholder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -220,6 +216,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tensorflowSample" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch02/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tensorflowSample" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch02/main2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -360,18 +373,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.mul_op" />
-      <item index="1" class="java.lang.String" itemvalue="Python.placeholder" />
-      <item index="2" class="java.lang.String" itemvalue="Python.inference" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.inference" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
-        <item index="2" class="java.lang.String" itemvalue="Python.inference" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mul_op" />
-        <item index="4" class="java.lang.String" itemvalue="Python.placeholder" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="3" class="java.lang.String" itemvalue="Python.inference" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mul_op" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487113831169</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ロジスティック回帰">
+      <created>1487114958263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1487114958263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -442,6 +462,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ch01/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="e#16#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#17#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="e#16#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#17#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch01/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -539,7 +609,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch01/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="756">
           <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
           <folding>
             <element signature="e#16#39#0" expanded="true" />
@@ -549,8 +619,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch02/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+        <state relative-caret-position="324">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#17#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tensorflow/lib/python2.7/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="942" column="0" selection-start-line="942" selection-start-column="0" selection-end-line="942" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02/main2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
           <folding>
             <element signature="e#17#40#0" expanded="true" />
           </folding>
