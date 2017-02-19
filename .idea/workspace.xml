@@ -86,8 +86,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch03/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            <state relative-caret-position="42">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
                 <element signature="e#16#39#0" expanded="true" />
               </folding>
@@ -489,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487493785120</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="最尤推定法">
+      <created>1487545558050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1487545558050</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -530,7 +537,8 @@
     <MESSAGE value="ロジスティック回帰" />
     <MESSAGE value="クロスバリデーション" />
     <MESSAGE value="バッチ降下法とか" />
-    <option name="LAST_COMMIT_MESSAGE" value="バッチ降下法とか" />
+    <MESSAGE value="最尤推定法" />
+    <option name="LAST_COMMIT_MESSAGE" value="最尤推定法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -717,8 +725,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch03/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        <state relative-caret-position="42">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
             <element signature="e#16#39#0" expanded="true" />
           </folding>

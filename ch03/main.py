@@ -57,3 +57,23 @@ for _ in range(1000):
         loss_val, acc_val = sess.run(
             [loss, accuracy], feed_dict={x:train_x, t:train_t})
         print('Step: %d, Loss: %f, Accuracy: %f' % (i, loss_val, acc_val))
+
+train_set1 = train_set[train_set['t']==1]
+train_set2 = train_set[train_set['t']==0]
+
+fig = plt.figure(figsize=(6,6))
+subplot = fig.add_subplot(1,1,1)
+subplot.set_ylim([0,30])
+subplot.set_xlim([0,30])
+subplot.scatter(train_set1.x1, train_set1.x2, marker='x')
+subplot.scatter(train_set2.x1, train_set2.x2, marker='o')
+
+locations = []
+for x2 in np.linspace(0,30,100):
+    for x1 in np.linspace(0,30,100):
+        locations.append((x1,x2))
+p_vals = sess.run(p, feed_dict={x:locations})
+p_vals = p_vals.reshape((100,100))
+subplot.imshow(p_vals, origin='lower', extent=(0,30,0,30),
+               cmap=plt.cm.gray_r, alpha=0.5)
+plt.show()
