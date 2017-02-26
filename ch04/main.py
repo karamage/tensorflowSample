@@ -15,7 +15,7 @@ for i in range(40):
     subplot.set_title('%d' % np.argmax(labels[i]))
     subplot.imshow(images[i].reshape(28,28), vmin=0, vmax=1,
                    cmap=plt.cm.gray_r, interpolation='nearest')
-plt.show()
+#plt.show()
 
 def edge_filter():
     filter0 = np.array(
@@ -62,3 +62,27 @@ for i in range(2):
     subplot.set_yticks([])
     subplot.imshow(filter_vals[:,:,0,i],
                    cmap=plt.cm.gray_r, interpolation='nearest')
+
+v_max = np.max(conv_vals)
+
+for i in range(9):
+    subplot = fig.add_subplot(3, 10, i+2)
+    subplot.set_xticks([])
+    subplot.set_yticks([])
+    subplot.set_title('%d' % np.argmax(labels[i]))
+    subplot.imshow(images[i].reshape((28,28)), vmin=0, vmax=1,
+                   cmap=plt.cm.gray_r, interpolation='nearrest')
+
+    subplot = fig.add_subplot(3, 10, 10+i+2)
+    subplot.set_xticks([])
+    subplot.set_yticks([])
+    subplot.imshow(conv_vals[i,:,:,0], vmin=0, vmax=v_max,
+                   cmap=plt.cm.gray_r, interpolation='nearest')
+
+    subplot = fig.add_subplot(3, 10, 20+i+2)
+    subplot.set_xticks([])
+    subplot.set_yticks([])
+    subplot.imshow(conv_vals[i,:,:,1], vmin=0, vmax=v_max,
+                   cmap=plt.cm.gray_r, interpolation='nearest')
+
+plt.show()
