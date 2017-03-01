@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9c8e55-3455-4008-a1ce-770db3f460e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch04/main2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch04/main.py" afterPath="$PROJECT_DIR$/ch04/main.py" />
     </list>
     <ignored path="tensorflowSample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,18 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch02/main4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#16#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch03/main.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,11 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch04/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+            <state relative-caret-position="288">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#16#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch04/main2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="e#16#39#0" expanded="true" />
               </folding>
@@ -86,7 +86,7 @@
       <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
         <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="1422">
               <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
               <folding />
             </state>
@@ -172,6 +172,7 @@
         <option value="$PROJECT_DIR$/ch03/main3.py" />
         <option value="$PROJECT_DIR$/ch03/main4.py" />
         <option value="$PROJECT_DIR$/ch04/main.py" />
+        <option value="$PROJECT_DIR$/ch04/main2.py" />
       </list>
     </option>
   </component>
@@ -221,11 +222,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,26 +234,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch03/main3.py&#10;main2&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch03/main2.py&#10;main3&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch03/main3.py&#10;sing&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch03/single_layer_network.py&#10;main&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch02/main4.py&#10;train&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train.py&#10;in&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/inference.py&#10;tra&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train.py&#10;mo&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/model.py&#10;mode&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/model.py&#10;reader&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/reader.py&#10;con&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/convert_cifar10_png.py" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch04/main2.py&#10;main2&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch03/main2.py&#10;main3&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch03/main3.py&#10;sing&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch03/single_layer_network.py&#10;main&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/ch02/main4.py&#10;train&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train.py&#10;in&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/inference.py&#10;tra&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/train.py&#10;mo&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/model.py&#10;mode&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/model.py&#10;reader&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/reader.py&#10;con&#9;FILE&#9;file:///Users/masaakikakimoto/Documents/tensorflowSample/convert_cifar10_png.py" />
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration default="false" name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tensorflowSample" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch03/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.main2">
     <configuration default="false" name="main2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,6 +301,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tensorflowSample" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tensorflowSample" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/main2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -456,19 +457,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main2 (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.main3 (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main4 (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main2 (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main3 (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main4 (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main4 (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main3 (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main2 (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main4 (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main3 (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -542,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488073683221</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="畳み込みフィルター">
+      <created>1488151311623</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1488151311623</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -594,7 +602,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gd.py" />
     <entry file="file://$PROJECT_DIR$/add_op.py" />
     <entry file="file://$PROJECT_DIR$/mul_op.py" />
     <entry file="file://$PROJECT_DIR$/reader.py" />
@@ -680,9 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="e#16#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,9 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,6 +724,34 @@
           <folding>
             <element signature="e#16#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/main2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -757,24 +786,6 @@
         <state relative-caret-position="16884">
           <caret line="973" column="16" selection-start-line="973" selection-start-column="16" selection-end-line="973" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch04/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-          <folding>
-            <element signature="e#16#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
