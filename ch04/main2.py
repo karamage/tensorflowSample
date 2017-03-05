@@ -72,3 +72,21 @@ for _ in range(200):
             [loss, accuracy], feed_dict={x:images, t:labels})
         print('Step: %d, Loss: %f, Accuracy: %f'
               % (i, loss_val, acc_val))
+
+hidden2_vals = sess.run(hidden2, feed_dict={x: images})
+
+z1_vals = [[],[],[]]
+z2_vals = [[],[],[]]
+
+for hidden2_vals, label in zip(hidden2_vals, labels):
+    label_num = np.argmax(label)
+    z1_vals[label_num].append(hidden2_vals[0])
+    z2_vals[label_num].append(hidden2_vals[1])
+
+fig = plt.figure(figsize=(5,5))
+subplot = fig.add_subplot(1,1,1)
+subplot.scatter(z1_vals[0], z2_vals[0], s=200, marker='|')
+subplot.scatter(z1_vals[1], z2_vals[1], s=200, marker='_')
+subplot.scatter(z1_vals[2], z2_vals[2], s=200, marker='+')
+
+plt.show()
